@@ -32,7 +32,7 @@ function TodoForm(props) {
             <input type='text'
             placeholder='Update todo' 
             value={input} 
-            className = 'todo-update'
+            className = 'todo-input'
             name='text' 
             onChange={handleChange}
             ref={inputRef}            
